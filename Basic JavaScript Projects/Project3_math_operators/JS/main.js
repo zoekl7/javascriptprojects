@@ -16,8 +16,21 @@ function addition_Function() {
 
 //subtraction//
 
+var x = myFunction(7, 3);
+document.getElementById("Math2").innerHTML = x;
+
+function myFunction(a, b) {
+    return a - b;
+}
+
 function subtraction_Function() {
     var Subtraction = 7 - 3;
+    document.getElementById("Math2").innerHTML = "7 - 3 = " + Subtraction;
+}
+
+//secend method//
+function addition_Function() {
+    var addition = 7 - 3;
     document.getElementById("Math2").innerHTML = "7 - 3 = " + Subtraction;
 }
 
@@ -32,5 +45,5 @@ function multiplication() {
 //multiple math operations at once//
 function more_Math() {
     var simple_Math = (1 + 2) * 10 / 2 -5;
-    document.getElementById("Math").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math;
+    document.getElementById("Math4").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math;
 }
