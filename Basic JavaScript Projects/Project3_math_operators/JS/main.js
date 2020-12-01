@@ -1,26 +1,21 @@
 //first addition method//
-
+function myFunction() {
 var x = myFunction(7, 3);
 document.getElementById("Math").innerHTML = x;
 
 function myFunction(a, b) {
     return a + b;
 }
-
-//second method//
-
-function addition_Function() {
-    var addition = 7 + 3;
-    document.getElementById("Math").innerHTML = "7 + 3 = " + addition;
 }
 
 //subtraction//
-
+function myFunction2() {
 var x = myFunction2(7, 3);
 document.getElementById("Math2").innerHTML = x;
 
 function myFunction2(a, b) {
     return a - b;
+}
 }
 
 function subtraction_Function() {
@@ -28,19 +23,15 @@ function subtraction_Function() {
     document.getElementById("Math2").innerHTML = "7 - 3 = " + Subtraction;
 }
 
-//secend method//
-function addition_Function() {
-    var addition = 7 - 3;
-    document.getElementById("Math2").innerHTML = "7 - 3 = " + Subtraction;
-}
 
 //multiplication//
-
+function myFunction3() {
 var x = myFunction3(7, 3);
 document.getElementById("Math3").innerHTML = x;
 
 function myFunction3(a, b) {
     return a * b;
+}
 }
 
 //second method//
@@ -50,12 +41,13 @@ function multiplication() {
 }
 
 //division// 
-
+function myFunction4() {
 var x = myFunction4(21, 3);
 document.getElementById("Math4").innerHTML = x;
 
 function myFunction4(a, b) {
     return a / b;
+}
 }
 
 //second method//
@@ -65,12 +57,13 @@ function division() {
 }
 
 //Modulus operator//
-
+function myFunction5() {
 var x = myFunction5(30, 5);
 document.getElementById("Math5").innerHTML = x;
 
 function myFunction5(a, b) {
     return a % b;
+}
 }
 
 //second method//
