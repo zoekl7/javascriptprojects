@@ -10,6 +10,7 @@ function Test() {
 
 //Boolean//
 document.write(9>5);
+document.write(9<5);
 
 //Console Log//
 console.log(3 + 4);
@@ -50,3 +51,4 @@ function notfunction() {
 function nottest() {
     document.getElementById("Nope").innerHTML = !(7 > 5);
 }
+
