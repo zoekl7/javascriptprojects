@@ -1,3 +1,4 @@
+//Dictionary//
 function my_Dictionary() {
     var Movies = {
         Action:"The Old Gaurd",
@@ -5,6 +6,7 @@ function my_Dictionary() {
         SciFi:"Avengers",
         Fantasy:"Fantastic Beasts"
     };
+    //deleting Fantastic Beasts//
     delete Movies.Fantasy;
     document.getElementById("Dictionary").innerHTML = Movies.Fantasy;
 }
