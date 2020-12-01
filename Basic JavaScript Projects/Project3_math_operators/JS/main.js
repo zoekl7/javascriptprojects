@@ -16,10 +16,10 @@ function addition_Function() {
 
 //subtraction//
 
-var x = myFunction(7, 3);
+var x = myFunction2(7, 3);
 document.getElementById("Math2").innerHTML = x;
 
-function myFunction(a, b) {
+function myFunction2(a, b) {
     return a - b;
 }
 
@@ -36,10 +36,10 @@ function addition_Function() {
 
 //multiplication//
 
-var x = myFunction(7, 3);
+var x = myFunction3(7, 3);
 document.getElementById("Math3").innerHTML = x;
 
-function myFunction(a, b) {
+function myFunction3(a, b) {
     return a * b;
 }
 
@@ -51,10 +51,10 @@ function multiplication() {
 
 //division// 
 
-var x = myFunction(21, 3);
+var x = myFunction4(21, 3);
 document.getElementById("Math4").innerHTML = x;
 
-function myFunction(a, b) {
+function myFunction4(a, b) {
     return a / b;
 }
 
@@ -66,10 +66,10 @@ function division() {
 
 //Modulus operator//
 
-var x = myFunction(30, 5);
+var x = myFunction5(30, 5);
 document.getElementById("Math5").innerHTML = x;
 
-function myFunction(a, b) {
+function myFunction5(a, b) {
     return a % b;
 }
 
@@ -80,10 +80,11 @@ function modulus_Operator() {
 }
 
 //increment operator//
-
+function myFunction6() {
 var X = 7;
 X++;
 document.write(X);
+}
 
 //decrement operator//
 
