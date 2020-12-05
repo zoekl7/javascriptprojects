@@ -15,7 +15,7 @@ function countdown() {
 //Slide show //
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides();
 
 // Next/previous controls//
 function plusSlides(n) {
@@ -29,8 +29,8 @@ function currentSlide(n) {
 
 function Slides(n) {
   var i;
-  var slideIndex = document.getElementsByClassName("Slides");
-  var dots = document.getElementsByClassName("squares");
+  var slideIndex = document.getElementsByClassName("showSlides");
+  var dots = document.getElementsByClassName("dots");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -39,6 +39,6 @@ function Slides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace("active", "");
   }
-  slides[slideindex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += "active";
 }
