@@ -1,0 +1,1 @@
+alert(document.getElementById("pr")).innerHTML;
