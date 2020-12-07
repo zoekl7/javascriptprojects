@@ -26,3 +26,20 @@ function characters() {
     char [2] = "Bruce Wayne";
     document.getElementById("charname").innerHTML = "Name: " + char[1] + ".";
 }
+
+//Const keyword//
+function constant_function() {
+    const Animals = {type:"Reptile", brand:"Snake", color:"black"};
+    Animals.color = "black";
+    Animals.price = "$300";
+    document.getElementById("Constant").innerHTML = "The cost of the " + Animals.type + " is " + Animals.price;
+}
+
+//let keyword//
+var X = 30;
+document.write(X);
+{
+    let X = 13;
+    document.write("<br>" + X);
+}
+document.write("<br" + X);
