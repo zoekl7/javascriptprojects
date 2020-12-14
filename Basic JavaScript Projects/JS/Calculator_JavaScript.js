@@ -56,7 +56,7 @@ function Handle_Operator(Next_Operator) {
     Calculator.Wait_Second_Operand = true;
     Calculator.operator = Next_Operator;
 }
-const Perfom_Calculation = {
+const Perform_Calculation = {
     '/': (First_Operand, Second_Operand) => First_Operand / Second_Operand,
     '*': (First_Operand, Second_Operand) => First_Operand * Second_Operand,
     '+': (First_Operand, Second_Operand) => First_Operand + Second_Operand,
