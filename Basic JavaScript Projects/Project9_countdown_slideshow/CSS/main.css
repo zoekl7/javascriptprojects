@@ -1,15 +1,13 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow {
+.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-.showSlides {
-  display: none;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {

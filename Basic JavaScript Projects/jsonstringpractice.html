@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="prac"></p>
+
+        <script>
+        var obj = { "name":"Mando", "age":30, "planet":"Mandalore"};
+        var myJSON = JSON.stringify(obj);
+        document.getElementById("prac").innerHTML = myJSON;
+        </script>
+
+        <p id="practice"></p>
+
+        <script>
+            var obj = JSON.parse('{"firstName":"Din", "lastName":"Djarin"}');
+            
+            document.getElementById("practice").innerHTML = obj.firstName;
+            </script>
+
+            <p id="Animal"></p>
+
+            <script>
+                if (typeof(Storage) !== "undefined") {
+                localStorage.setItem("name", "Cat");
+                document.getElementById("Animal").innerHTML = localStorage.getItem("name");
+                }
+            </script>
+
+    </body>
+</html>

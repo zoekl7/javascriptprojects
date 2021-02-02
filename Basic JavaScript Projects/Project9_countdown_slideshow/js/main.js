@@ -15,21 +15,21 @@ function countdown() {
 //Slide show //
 
 var slideIndex = 1;
-showSlides();
+Slides();
 
 // Next/previous controls//
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  Slides(slideIndex += n);
 }
 
 // Thumbnail image controls//
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  Slides(slideIndex = n);
 }
 
 function Slides(n) {
   var i;
-  var slideIndex = document.getElementsByClassName("showSlides");
+  var Slides = document.getElementsByClassName("Slides");
   var dots = document.getElementsByClassName("dots");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -37,8 +37,8 @@ function Slides(n) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace("active", "");
+      dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += "active";
+  Slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
