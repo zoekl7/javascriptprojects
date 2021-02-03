@@ -31,10 +31,10 @@ function Slides(n) {
   var i;
   var Slides = document.getElementsByClassName("Slides");
   var dots = document.getElementsByClassName("dots");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  if (n > Slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = Slides.length}
+  for (i = 0; i < Slides.length; i++) {
+      Slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
